@@ -113,10 +113,13 @@ print "If I add %d, %d, and %d I get %d." % (
 
 print "Height converted from inches to centimeters is %d" % (height * 2.54)
 
-print "Weight converted from pounds to kilos is %d" % (weight / 2.2)
+print "Weight converted from pounds to kilograms is %d" % (weight / 2.2)
 
+print round(1.98999) 
 
+# These are format specifiers. The %d specifier refers specifically to a decimal (base 10) integer. The %s specifier refers to a Python string. It is used for string formatting
 
+# --------------- Exercise 6
 
 
 
