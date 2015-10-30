@@ -134,11 +134,16 @@ print x
 # prints value of 'y'
 print y
 
-# 
+# prints value of 'x'
 print "I said: %r." % x
+
+# prints value of 'y'
 print "I also said: '%s'." % y
 
+# var 'hilarious' has a value of 'False'
 hilarious = False
+
+# joke evaluation prints value of 'r'
 joke_evaluation = "Isn't that joke so funny?! %r"
 
 print joke_evaluation % hilarious
