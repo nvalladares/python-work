@@ -122,40 +122,62 @@
 # --------------- Exercise 6
 
 # var 'x' = 'there are 10 types of people'
-x = "There are %d types of people." % 10
+# x = "There are %d types of people." % 10
 # var 'binary' = 'binary'
-binary = "binary"
+# binary = "binary"
 # var 'do_not' = 'don't
-do_not = "don't"
+# do_not = "don't"
 # var 'y' = 'Those who understand binary and those who don't'
-y = "Those who know %s and those who %s." % (binary, do_not)
+# y = "Those who know %s and those who %s." % (binary, do_not)
 # prints value of 'x'
-print x
+# print x
 # prints value of 'y'
-print y
+# print y
 
 # prints value of 'x'
-print "I said: %r." % x
+# print "I said: %r." % x
 
 # prints value of 'y'
-print "I also said: '%s'." % y
+# print "I also said: '%s'." % y
 
 # var 'hilarious' has a value of 'False'
-hilarious = False
+# hilarious = False
 
 # joke evaluation prints value of 'r'
-joke_evaluation = "Isn't that joke so funny?! %r"
+# joke_evaluation = "Isn't that joke so funny?! %r"
 
-print joke_evaluation % hilarious
+# print joke_evaluation % hilarious
 
-w = "This is the left side of..."
-e = "a string with a right side."
+# w = "This is the left side of..."
+# e = "a string with a right side."
 
-print w + e
+# print w + e
 
+# ------------ Exercise 7
 
+print "Mary had a little lamb."
+print "Its fleece was white as %s." % 'snow' #'snow' isn't a variable, it's a strig
+print "And everywhere that Mary went."
+print "." * 10  # what'd that do? It printed "." 10 times
 
+end1 = "C"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
 
+print end1 + end2 + end3 + end4 + end5 + end6,
+print end7 + end8 + end9 + end10 + end11 + end12
+# with comma = "Cheese Burger"
+# without comma = "Cheese
+				# Burger"
 
 
 
